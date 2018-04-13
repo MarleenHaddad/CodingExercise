@@ -17,10 +17,10 @@
                    HotelBooking.com
                 </h1>
             </div>
-            <div class="userInformation">
+            <div class="userInformation" style="position:absolute;right:0px">
             <asp:Label ID="lblLanguage" runat="server" ></asp:Label>
             <asp:Label ID="lblCurrency" runat="server"></asp:Label>
-          
+            <asp:Label ID="lblUserName" runat="server"></asp:Label>
             </div>
             <div class="clear hideSkiplink">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">

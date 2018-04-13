@@ -57,6 +57,8 @@
             </td>
             <td>
                 <input type="text" id="TripDateFrom" name="from" runat="server" />
+                <asp:RequiredFieldValidator ID="rfvTripDateFrom" runat="server" ControlToValidate="TripDateFrom"
+                    ValidationGroup="Search" ErrorMessage="Please enter date from" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td>
                 <asp:Label ID="lblTripDateTo" for="to" runat="server" >
@@ -64,14 +66,16 @@
             </td>
             <td>
                 <input type="text" id="TripDateTo" name="to" runat="server" />
+                 <asp:RequiredFieldValidator ID="rfvTripDateTo" runat="server" ControlToValidate="TripDateTo"
+                    ValidationGroup="Search" ErrorMessage="Please enter to date" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td>
                 <asp:Label ID="lblLengthOfStay" runat="server" > Days of staying </asp:Label>
             </td>
             <td>
                 <input type="text" id="txtLengthOfStay" runat="server" onkeyup="this.value=this.value.replace(/[^\d]/,'')" />
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtLengthOfStay"
-                    ValidationGroup="Search" ErrorMessage="Please eneter number of days" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="rfvLengthOfStay" runat="server" ControlToValidate="txtLengthOfStay"
+                    ValidationGroup="Search" ErrorMessage="Please enter number of days" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>

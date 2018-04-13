@@ -49,6 +49,15 @@ namespace ExpediaCodingExercise {
         protected global::System.Web.UI.HtmlControls.HtmlInputText TripDateFrom;
         
         /// <summary>
+        /// rfvTripDateFrom control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTripDateFrom;
+        
+        /// <summary>
         /// lblTripDateTo control.
         /// </summary>
         /// <remarks>
@@ -65,6 +74,15 @@ namespace ExpediaCodingExercise {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText TripDateTo;
+        
+        /// <summary>
+        /// rfvTripDateTo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTripDateTo;
         
         /// <summary>
         /// lblLengthOfStay control.
@@ -85,13 +103,13 @@ namespace ExpediaCodingExercise {
         protected global::System.Web.UI.HtmlControls.HtmlInputText txtLengthOfStay;
         
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// rfvLengthOfStay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvLengthOfStay;
         
         /// <summary>
         /// lblMinStarRating control.
