@@ -3,3 +3,5 @@ C:\Users\Marleen\Desktop\tt\ExpediaCodingExercise\ExpediaCodingExercise\bin\Expe
 C:\Users\Marleen\Desktop\tt\ExpediaCodingExercise\ExpediaCodingExercise\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Marleen\Desktop\tt\ExpediaCodingExercise\ExpediaCodingExercise\obj\Debug\ExpediaCodingExercise.dll
 C:\Users\Marleen\Desktop\tt\ExpediaCodingExercise\ExpediaCodingExercise\obj\Debug\ExpediaCodingExercise.pdb
+C:\Users\Marleen\Desktop\tt\ExpediaCodingExercise\ExpediaCodingExercise\bin\Newtonsoft.Json.dll
+C:\Users\Marleen\Desktop\tt\ExpediaCodingExercise\ExpediaCodingExercise\bin\Newtonsoft.Json.xml

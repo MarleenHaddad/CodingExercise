@@ -33,6 +33,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -65,6 +69,18 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\Collections\DestinationCollection.cs" />
+    <Compile Include="BL\Destination.cs" />
+    <Compile Include="BL\Hotel.cs" />
+    <Compile Include="BL\HotelBookingSite.cs" />
+    <Compile Include="BL\HotelInfo.cs" />
+    <Compile Include="BL\HotelPricingInfo.cs" />
+    <Compile Include="BL\HotelUrls.cs" />
+    <Compile Include="BL\OfferDateRange.cs" />
+    <Compile Include="BL\OfferInfo.cs" />
+    <Compile Include="BL\Offers.cs" />
+    <Compile Include="BL\Persona.cs" />
+    <Compile Include="BL\UserInfo.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -75,6 +91,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="DAL\HotelDeals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -89,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
