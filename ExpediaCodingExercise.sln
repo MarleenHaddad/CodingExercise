@@ -8,9 +8,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE09E40E-4C87-4FD5-9828-F4997D44C01A}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
-		ExpediaCodingExercise.vsmdi = ExpediaCodingExercise.vsmdi
-		Local.testsettings = Local.testsettings
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
 Global
