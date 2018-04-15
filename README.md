@@ -40,9 +40,9 @@ For more clarification you can see this video https://www.youtube.com/watch?v=3G
 # Assumptions about the API 
  I assumed that the structure of the API is like this :
  - Root object have three vairables  : 
-  - Offer Info  
-  - UserInfo
-  - Offers 
+    - Offer Info  
+    - UserInfo
+    - Offers 
  
 # Authors
 Marleen Haddad.
