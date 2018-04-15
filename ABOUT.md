@@ -13,7 +13,9 @@ Bulid and create a simple web site that presenting the deals of hotels .
 - Add a Unit Test project to test my web site .
 - Add a Test class that has test methods to test my classes if consume the JSON API correctly.
 - Testing the tests localy .
-- Adding .travis.yml file to test it on Travis-CI , but when it statrs testing it always give me a test falid because travis-ci always falid when bulid the project ! , still trying to find solution for that . 
+- Adding .travis.yml file to test it on Travis-CI . 
+- Adding another unit testing project to test it using travis-ci.
 
 # Experience 
 Ten months using ASP.Net framework.
+Travis-CI its new for me so I learned the Nunit test in order to test my project on travis-Ci . 
