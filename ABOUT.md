@@ -1,7 +1,7 @@
-#Accomplishments 
+# Accomplishments 
 Bulid and create a simple web site that presenting the deals of hotels . 
 
-#Thought process 
+# Thought process 
 - Reading the exercise carefully in order to analysis the problem in the right way.
 - Desgin my classes .
 - Make a new repository on github 
@@ -15,5 +15,5 @@ Bulid and create a simple web site that presenting the deals of hotels .
 - Testing the tests localy .
 - Adding .travis.yml file to test it on Travis-CI , but when it statrs testing it always give me a test falid because travis-ci always falid when bulid the project ! , still trying to find solution for that . 
 
-#Experience 
+# Experience 
 Ten months using ASP.Net framework.
