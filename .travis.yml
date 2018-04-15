@@ -3,7 +3,7 @@ solution: ExpediaCodingExercise.sln
  
 install:
   - sudo apt-get install nunit-console
-  - nuget ExpediaCodingExercise.sln
+  - nuget restore ExpediaCodingExercise.sln
  
 script:
   - xbuild ExpediaCodingExercise.sln
