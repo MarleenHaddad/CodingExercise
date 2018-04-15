@@ -18,7 +18,7 @@ You can follow these links to download them :
  - https://www.nuget.org/packages/jQuery/
 
 # Running the tests
-In my project there is another project called unit testing for testing if the classes consume the JSON API . To run the tests just go to test menu --> Run --> All tests in solution.
+In my project there is another two projects one called UnitTesting for testing the classes on Travis CI and the other called LocalUnitTesting for local testing to run local testing just go to test menu --> Run --> All tests in solution. 
 
 # Coding style 
  - For testing I used Arrange-Act-Assert pattern . 
