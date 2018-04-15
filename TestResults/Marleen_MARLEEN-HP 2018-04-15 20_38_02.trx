@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d22d5ad3-3b06-41b8-8f3e-984397f81430" name="Marleen@MARLEEN-HP 2018-04-15 20:38:02" runUser="Marleen-HP\Marleen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a83538b4-1bee-41a3-a528-4008d7d4e8b3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Marleen_MARLEEN-HP 2018-04-15 20_38_02">
+      <DeploymentItem filename="C:\Users\Marleen\Desktop\ttr\CodingExercise\packages\Newtonsoft.Json.6.0.3\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\Marleen\Desktop\ttr\CodingExercise\ExpediaCodingExercise\bin\ExpediaCodingExercise.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-04-15T20:38:02.4828183+03:00" queuing="2018-04-15T20:38:03.9759037+03:00" start="2018-04-15T20:38:04.0779095+03:00" finish="2018-04-15T20:38:06.6320556+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanConsumeJSONAPI" storage="c:\users\marleen\desktop\ttr\codingexercise\unittestinglocaly\bin\debug\unittestinglocaly.dll" id="cd92a1a9-3050-947a-7359-3a04799eb8fd">
+      <Execution id="d603c863-6f8b-4322-ada8-c8f138bc07ee" />
+      <TestMethod codeBase="C:/Users/Marleen/Desktop/ttr/CodingExercise/UnitTestingLocaly/bin/Debug/UnitTestingLocaly.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.UnitTes, UnitTestingLocaly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanConsumeJSONAPI" />
+    </UnitTest>
+    <UnitTest name="canGetDistinantions" storage="c:\users\marleen\desktop\ttr\codingexercise\unittestinglocaly\bin\debug\unittestinglocaly.dll" id="11e83c9e-f55f-4d61-ef75-b99b3a804323">
+      <Execution id="a5be42b3-073d-4983-9bde-9d9680aa2ea4" />
+      <TestMethod codeBase="C:/Users/Marleen/Desktop/ttr/CodingExercise/UnitTestingLocaly/bin/Debug/UnitTestingLocaly.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.UnitTes, UnitTestingLocaly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canGetDistinantions" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="11e83c9e-f55f-4d61-ef75-b99b3a804323" executionId="a5be42b3-073d-4983-9bde-9d9680aa2ea4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd92a1a9-3050-947a-7359-3a04799eb8fd" executionId="d603c863-6f8b-4322-ada8-c8f138bc07ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a5be42b3-073d-4983-9bde-9d9680aa2ea4" testId="11e83c9e-f55f-4d61-ef75-b99b3a804323" testName="canGetDistinantions" computerName="MARLEEN-HP" duration="00:00:01.8689045" startTime="2018-04-15T20:38:04.0999107+03:00" endTime="2018-04-15T20:38:06.5000480+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5be42b3-073d-4983-9bde-9d9680aa2ea4">
+    </UnitTestResult>
+    <UnitTestResult executionId="d603c863-6f8b-4322-ada8-c8f138bc07ee" testId="cd92a1a9-3050-947a-7359-3a04799eb8fd" testName="CanConsumeJSONAPI" computerName="MARLEEN-HP" duration="00:00:00.0004959" startTime="2018-04-15T20:38:06.5140488+03:00" endTime="2018-04-15T20:38:06.5220493+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d603c863-6f8b-4322-ada8-c8f138bc07ee">
+    </UnitTestResult>
+  </Results>
+</TestRun>

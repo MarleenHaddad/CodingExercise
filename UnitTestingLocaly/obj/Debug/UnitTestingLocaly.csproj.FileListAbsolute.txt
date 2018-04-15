@@ -1,0 +1,9 @@
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTestingLocaly\bin\Debug\UnitTestingLocaly.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTestingLocaly\bin\Debug\UnitTestingLocaly.pdb
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTestingLocaly\bin\Debug\ExpediaCodingExercise.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTestingLocaly\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTestingLocaly\bin\Debug\ExpediaCodingExercise.pdb
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTestingLocaly\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTestingLocaly\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTestingLocaly\obj\Debug\UnitTestingLocaly.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTestingLocaly\obj\Debug\UnitTestingLocaly.pdb
