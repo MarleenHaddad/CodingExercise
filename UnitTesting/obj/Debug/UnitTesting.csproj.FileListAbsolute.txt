@@ -18,3 +18,14 @@ C:\Users\Marleen\Desktop\tt\UnitTesting\bin\Debug\nunit.framework.xml
 C:\Users\Marleen\Desktop\tt\UnitTesting\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Marleen\Desktop\tt\UnitTesting\obj\Debug\UnitTesting.dll
 C:\Users\Marleen\Desktop\tt\UnitTesting\obj\Debug\UnitTesting.pdb
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\bin\Debug\UnitTesting.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\bin\Debug\UnitTesting.pdb
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\bin\Debug\ExpediaCodingExercise.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\bin\Debug\nunit.framework.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\bin\Debug\ExpediaCodingExercise.pdb
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\bin\Debug\nunit.framework.xml
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\obj\Debug\UnitTesting.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\UnitTesting\obj\Debug\UnitTesting.pdb

@@ -12,3 +12,10 @@ C:\Users\Marleen\Desktop\tt\ExpediaCodingExercise\bin\Newtonsoft.Json.xml
 C:\Users\Marleen\Desktop\tt\ExpediaCodingExercise\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Marleen\Desktop\tt\ExpediaCodingExercise\obj\Debug\ExpediaCodingExercise.dll
 C:\Users\Marleen\Desktop\tt\ExpediaCodingExercise\obj\Debug\ExpediaCodingExercise.pdb
+C:\Users\Marleen\Desktop\ttr\CodingExercise\ExpediaCodingExercise\bin\ExpediaCodingExercise.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\ExpediaCodingExercise\bin\ExpediaCodingExercise.pdb
+C:\Users\Marleen\Desktop\ttr\CodingExercise\ExpediaCodingExercise\bin\Newtonsoft.Json.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\ExpediaCodingExercise\bin\Newtonsoft.Json.xml
+C:\Users\Marleen\Desktop\ttr\CodingExercise\ExpediaCodingExercise\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Marleen\Desktop\ttr\CodingExercise\ExpediaCodingExercise\obj\Debug\ExpediaCodingExercise.dll
+C:\Users\Marleen\Desktop\ttr\CodingExercise\ExpediaCodingExercise\obj\Debug\ExpediaCodingExercise.pdb

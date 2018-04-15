@@ -1,21 +1,24 @@
-﻿using NUnit.Framework;
+﻿using System;
+using System.Text;
+using System.Collections.Generic;
+using System.Linq;
 using Newtonsoft.Json;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json.Linq;
 
-namespace UnitTesting
-{
 
+namespace UnitTest
+{
     /// <summary>
     /// Summary description for UnitTest
     /// Purpose : Testing 
     /// Owner : Marleen Haddad
     /// </summary>
-
-    [TestFixture]
-    class TestClass
+    [TestClass]
+    public class UnitTes
     {
         /// Testing if the class can consume JSON API
-        [Test]
+        [TestMethod]
         public void CanConsumeJSONAPI()
         {
             //Arrange       
@@ -29,7 +32,7 @@ namespace UnitTesting
 
         }
         /// Testing if the class can get  distinantions from JSON API
-        [Test]
+        [TestMethod]
         public void canGetDistinantions()
         {
             //Arrange
@@ -44,7 +47,7 @@ namespace UnitTesting
             }
 
             //Assert
-            Assert.AreNotEqual(DestinationCollection.GetDestinantions().Count, 0);
+            Assert.AreNotEqual(DestinationCollection.GetDestinantions().Count(), 0);
 
         }
     }
