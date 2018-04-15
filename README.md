@@ -35,11 +35,11 @@ In my project there is another project called unit testing for testing if the cl
 
 For more clarification you can see this video https://www.youtube.com/watch?v=3G5ghyis_N8
 
- Note : Because it is ASP.Net web site I used freeasphosting.net web site to host it not  Heroku. 
+ Note : Because it is ASP.Net web site I used freeasphosting.net web site to host it not Heroku. You can check the site on  http://marleenhaddad.freeasphost.net/
  
-# Assumptionsabout the API 
+# Assumptions about the API 
  I assumed that the structure of the API is like this :
- Root object have three vairables  : 
+ - Root object have three vairables  : 
   - Offer Info  
   - UserInfo
   - Offers 
