@@ -1,8 +1,10 @@
 language: csharp
 solution: ExpediaCodingExercise.sln
+ 
 install:
-  - nuget restore ExpediaCodingExercise.sln
-  - nuget install NUnit.Runners -Version 3.0.0 -OutputDirectory testrunner
+  - sudo apt-get install nunit-console
+  - nuget ExpediaCodingExercise.sln
+ 
 script:
-  - xbuild /p:Configuration=Release ExpediaCodingExercise.sln
-  - mono ./testrunner/NUnit.Runners.3.0.0/tools/nunit-console.exe ./ExpediaCodingExercise/UnitTesting/bin/Debug/UnitTesting.dll
+  - xbuild ExpediaCodingExercise.sln
+  - nunit-console ./UnitTesting/bin/Debug/UnitTesting.dll
