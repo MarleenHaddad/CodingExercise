@@ -1,9 +1,0 @@
-C:\Users\Marleen\Desktop\ttr\CodingExercise\LocalUnitTesting\bin\Debug\LocalUnitTesting.dll
-C:\Users\Marleen\Desktop\ttr\CodingExercise\LocalUnitTesting\bin\Debug\LocalUnitTesting.pdb
-C:\Users\Marleen\Desktop\ttr\CodingExercise\LocalUnitTesting\bin\Debug\ExpediaCodingExercise.dll
-C:\Users\Marleen\Desktop\ttr\CodingExercise\LocalUnitTesting\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Marleen\Desktop\ttr\CodingExercise\LocalUnitTesting\bin\Debug\ExpediaCodingExercise.pdb
-C:\Users\Marleen\Desktop\ttr\CodingExercise\LocalUnitTesting\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Marleen\Desktop\ttr\CodingExercise\LocalUnitTesting\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Marleen\Desktop\ttr\CodingExercise\LocalUnitTesting\obj\Debug\LocalUnitTesting.dll
-C:\Users\Marleen\Desktop\ttr\CodingExercise\LocalUnitTesting\obj\Debug\LocalUnitTesting.pdb
