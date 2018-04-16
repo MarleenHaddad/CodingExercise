@@ -8,7 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 - Visual studio 2010 . 
 - NugetManeger . 
 - Newtonsoft.Json 6.0.3 , prerequisite NugetManeger. 
-- Jquery prerequisite NugetManeger. 
+- Jquery , prerequisite NugetManeger. 
+- NUnit 3.0.0 , prerequisite NugetManeger.
 
 # Installing 
 You can follow these links to download them :
