@@ -17,6 +17,9 @@ Bulid and create a simple web site that presenting the deals of hotels .
 - Adding another unit testing project to test it using travis-ci.
 
 # Experience 
-Ten months using ASP.Net framework.
-Travis-CI its new for me so I learned the Nunit test in order to test my project on travis-Ci . 
-Learning how to host my website online .
+```
+. Ten months using ASP.Net framework.
+. Travis-CI its new for me so I learned the Nunit test in order to test my project on travis-Ci . 
+. Learning how to host my website online .
+
+```
