@@ -5,7 +5,7 @@ Bulid and create a simple web site that presenting the deals of hotels .
 - Reading the exercise carefully in order to analysis the problem in the right way.
 - Desgin my classes .
 - Make a new repository on github 
-- Make a new ASP web site project and connect it with github . 
+- Make a new ASP web site project and connect it with github . (I chose ASP.Net because I am more familiar with it )
 - Design the GUI for user .
 - Start writing functionality to the classes to make the design work . 
 - Testing the web site localy on my machine . 
