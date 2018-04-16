@@ -33,14 +33,14 @@ namespace ExpediaCodingExercise
             string[] tripDatefrom = TripDateFrom.Value.Split('/');
             string[] tripDateTo = TripDateTo.Value.Split('/');
 
-            DateTime DateFrom = new DateTime(int.Parse(tripDatefrom[2]), int.Parse(tripDatefrom[0]), int.Parse(tripDatefrom[1]));
-            DateTime DateTo = new DateTime(int.Parse(tripDateTo[2]), int.Parse(tripDateTo[0]), int.Parse(tripDateTo[1]));
+            DateTime StartDateFrom = new DateTime(int.Parse(tripDatefrom[2]), int.Parse(tripDatefrom[0]), int.Parse(tripDatefrom[1]));
+            DateTime StartDateTo = new DateTime(int.Parse(tripDateTo[2]), int.Parse(tripDateTo[0]), int.Parse(tripDateTo[1]));
             var result = from hotel in HotelBookingSite.offers.Hotel
                          where hotel.destination.regionID.Equals(ddlDestination.SelectedValue)
                             && hotel.offerDateRange.lengthOfStay == int.Parse(txtLengthOfStay.Value)
                             && double.Parse(hotel.hotelInfo.hotelStarRating) >= double.Parse(ddlMinStarRating.SelectedValue)
-                            && new DateTime(hotel.offerDateRange.travelStartDate[0], hotel.offerDateRange.travelStartDate[1], hotel.offerDateRange.travelStartDate[2]).Date >= DateFrom.Date
-                             && new DateTime(hotel.offerDateRange.travelEndDate[0], hotel.offerDateRange.travelEndDate[1], hotel.offerDateRange.travelEndDate[2]).Date <= DateTo.Date
+                            && new DateTime(hotel.offerDateRange.travelStartDate[0], hotel.offerDateRange.travelStartDate[1], hotel.offerDateRange.travelStartDate[2]).Date >= StartDateFrom.Date
+                            && new DateTime(hotel.offerDateRange.travelStartDate[0], hotel.offerDateRange.travelStartDate[1], hotel.offerDateRange.travelStartDate[2]).Date <= StartDateTo.Date
                             && double.Parse(hotel.hotelInfo.hotelStarRating) <= double.Parse(ddlMaxStarRating.SelectedValue)
                             && hotel.hotelInfo.hotelGuestReviewRating >= double.Parse(ddlMinGuestRating.SelectedValue)
                             && hotel.hotelInfo.hotelGuestReviewRating <= double.Parse(ddlMaxGuestRating.SelectedValue)

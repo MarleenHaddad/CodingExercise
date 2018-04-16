@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeBehind="Default.aspx.cs" Inherits="ExpediaCodingExercise._Default" %>
 <asp:Content ID="HeadContent" ContentPlaceHolderID="head" runat="server">
- <link rel="stylesheet" href="/resources/demos/style.css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -52,8 +52,8 @@
                 </asp:DropDownList>
             </td>
             <td>
-                <asp:Label ID="lblTripDateFrom" for="from" runat="server" >
-                    Trip Date From</asp:Label>
+                <asp:Label ID="lblTripStartDateFrom" for="from" runat="server" >
+                    Trip Start Date From</asp:Label>
             </td>
             <td>
                 <input type="text" id="TripDateFrom" name="from" runat="server" />
@@ -61,7 +61,7 @@
                     ValidationGroup="Search" ErrorMessage="Please enter date from" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td>
-                <asp:Label ID="lblTripDateTo" for="to" runat="server" >
+                <asp:Label ID="lblTripStartDateTo" for="to" runat="server" >
                     to</asp:Label>
             </td>
             <td>
@@ -84,6 +84,7 @@
             </td>
             <td>
                 <asp:DropDownList ID="ddlMinStarRating" runat="server" Width="130px">
+                    <asp:ListItem>0</asp:ListItem>
                     <asp:ListItem>1</asp:ListItem>
                     <asp:ListItem>2</asp:ListItem>
                     <asp:ListItem>3</asp:ListItem>
@@ -96,6 +97,7 @@
             </td>
             <td>
                 <asp:DropDownList ID="ddlMaxStarRating" runat="server" Width="130px">
+                    <asp:ListItem>0</asp:ListItem>
                     <asp:ListItem>1</asp:ListItem>
                     <asp:ListItem>2</asp:ListItem>
                     <asp:ListItem>3</asp:ListItem>
@@ -142,6 +144,7 @@
             </td>
             <td>
                 <asp:DropDownList ID="ddlMinTotalRating" runat="server" Width="130px">
+                    <asp:ListItem>0</asp:ListItem>
                     <asp:ListItem>1</asp:ListItem>
                     <asp:ListItem>200</asp:ListItem>
                     <asp:ListItem>300</asp:ListItem>

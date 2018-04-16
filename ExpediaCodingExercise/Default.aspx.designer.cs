@@ -31,13 +31,13 @@ namespace ExpediaCodingExercise {
         protected global::System.Web.UI.WebControls.DropDownList ddlDestination;
         
         /// <summary>
-        /// lblTripDateFrom control.
+        /// lblTripStartDateFrom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTripDateFrom;
+        protected global::System.Web.UI.WebControls.Label lblTripStartDateFrom;
         
         /// <summary>
         /// TripDateFrom control.
@@ -58,13 +58,13 @@ namespace ExpediaCodingExercise {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTripDateFrom;
         
         /// <summary>
-        /// lblTripDateTo control.
+        /// lblTripStartDateTo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTripDateTo;
+        protected global::System.Web.UI.WebControls.Label lblTripStartDateTo;
         
         /// <summary>
         /// TripDateTo control.
